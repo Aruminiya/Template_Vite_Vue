@@ -65,7 +65,7 @@ npm run deploy
 - vue-router (^4.2.5)
 - @vitejs/plugin-vue (^4.5.2)
 - eslint (^8.49.0)
-- eslint-config-standard (^^17.1.0)
+- eslint-config-airbnb-base (^15.0.0)
 - eslint-import-resolver-alias (^1.1.2)
 - eslint-plugin-import (^2.29.1)
 - eslint-plugin-n (^16.6.2)

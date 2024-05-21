@@ -5,22 +5,22 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'pinia'
-import counterStore from '@/stores/counter'
+import { mapActions, mapState } from 'pinia';
+import counterStore from '@/stores/counter';
 
 export default {
   name: 'HelloWorld',
-  data () {
+  data() {
     return {
-    }
+    };
   },
   methods: {
-    ...mapActions(counterStore, ['increment'])
+    ...mapActions(counterStore, ['increment']),
   },
   computed: {
-    ...mapState(counterStore, ['count'])
-  }
-}
+    ...mapState(counterStore, ['count']),
+  },
+};
 </script>
 
 <style scoped>
